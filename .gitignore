@@ -1,0 +1,16 @@
+# File type
+*.cmd
+*.o
+*.ko
+
+# Specific files
+kernel_module/.tmp_versions/
+kernel_module/Module.symvers
+kernel_module/modules.order
+kernel_module/memory_container.mod.c
+library/libmcontainer.so.1.0
+benchmark/benchmark
+benchmark/validate
+benchmark/*.log
+grade/benchmark
+.vscode

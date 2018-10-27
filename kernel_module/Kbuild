@@ -1,0 +1,4 @@
+TARGET = memory_container
+obj-m := memory_container.o
+memory_container-objs := src/core.o src/ioctl.o interface.o
+ccflags-y := -I$(src)/include 
